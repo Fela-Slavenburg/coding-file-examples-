@@ -1,0 +1,232 @@
+body {
+    background-color: rgb(227, 98, 163);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+nav h1 img {
+    width: 85px;
+    height: 85px;
+    margin-right: 10px;
+    margin-top: -20px;
+
+}
+  
+nav h1 {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+  
+nav h5 {
+    margin-left: 15px;
+    margin-top: -30px;
+}
+
+nav span {
+    font-size: large;
+}
+
+a {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    vertical-align: bottom;
+    justify-content: space-between;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+}
+
+.lara img {
+    height: 120px;
+    width: 130px;
+    position: absolute;
+    margin-left: -450px;
+    margin-top: -10px;
+}
+
+.paris img {
+    height: 110px;
+    width: 85px;
+    position: absolute;
+    margin-left: -110px;
+    margin-top: 20px;
+}
+
+#blocks { 
+    display: flex;
+    vertical-align: top;
+    justify-content: space-between;
+}
+
+/*main blok*/
+#main {
+    display: inline-block;
+    border: 2px solid rgb(255,165,0);
+    padding: 1%;
+    background-color: white;
+    color: black;
+    width: 40%;
+}
+
+#main p {
+    font-size: small;
+}
+
+#main img {
+    height: 220px;
+    width: 220px;
+}
+/*alcohol free song*/
+#muziek a {
+    margin-left: 40px;
+}
+
+a .free {
+    text-decoration: line-through;
+}
+  
+a .space {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+ 
+#muziek {
+    display: inline-block;
+    flex-direction: column;
+    border: 2px solid rgb(255,165,0);
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+    background-image: url('panter.jpg');
+    background-size: cover, contain;
+    background-position: center center, top left;
+}
+  
+#muziek audio {
+    width: 250px;
+}
+
+#music {
+    display: flex;
+    flex-direction: row; 
+}
+   
+#music img {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+/*navigatie blok*/
+#links {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.text-under h5 {
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+.text-under a {
+    font-size: smaller;
+}
+
+#nav  {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+#nav #music {
+    display: flex;
+    flex-direction: column;
+}
+
+#sideimage {
+    display: flex; 
+    flex-direction: column; 
+    width: 60px; 
+    height: 70px; 
+    margin-left: 20px;
+    margin-top: -250px;
+}
+
+.sideimage-image { 
+    margin-bottom: 30px; 
+}
+
+#nav1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+#nav1 img {
+    width: 260px;
+    height: 400px;
+    margin-left: 10px;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-block {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block a {
+    color: black;
+    text-decoration: none;
+}
+
+#rechts {
+    width: 30%;
+    border: 2px solid rgb(255,165,0);
+    background-color: rgb(229, 46, 128);
+    padding: 1%;
+    margin-left: 30px;
+}
+
+#rechts h2 {
+    text-align: center;
+    margin-top: -30px;
+}
+
+#rechts a {
+    color: white;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.sanrio {
+    margin-top: -40px;
+    width: 450px;
+}
+
+
+
+
+
+

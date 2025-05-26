@@ -1,0 +1,110 @@
+body {
+    background-image: url("../img/carpenter.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Navigatie balk bovenin pagina*/
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+#geel {
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    margin-left: -1200px;
+    margin-top: 5px;
+}
+
+.icons {
+    font-family: 'Bootstrap-icons';
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 5px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/*styling voor inlog en registartie blok waar de gegevens ingevuld kunnen worden*/
+.box {
+    display: flexbox;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top:-50px;
+    margin-bottom:50px;
+    padding: 5%;
+    background-color: white;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/*pop-up form voor een wachtwoord reset code*/
+.form-popup {
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 1000;
+    width: 600px;
+    height: 150px;
+    max-width: 90%;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.overlay {
+    display: none; 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}

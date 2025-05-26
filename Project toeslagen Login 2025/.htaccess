@@ -1,0 +1,4 @@
+AddType application/x-httpd-php .HTML 
+
+php_flag display_errors On
+php_value error_reporting E_ALL

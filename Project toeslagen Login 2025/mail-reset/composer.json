@@ -1,0 +1,11 @@
+{
+    "name": "slave/mail-reset",
+    "autoload": {
+        "psr-4": {
+            "Slave\\MailReset\\": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

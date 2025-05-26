@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='loginpagina_docent_student.css'>
+    <link rel="icon" type="image/x-icon" href="CijferCentraalLogo.png">
+
+    <title>CijferCentraal</title>
+</head>
+<body>
+    
+<header>
+    <div class="head">
+    <img src="CijferCentraalLogo.png" alt="CijferCentraalLogo" id="logo">
+    <div class="midden">CijferCentraal</div>
+</div>
+    <hr>
+</header>
+    <div class="login">
+        
+    <div class="Docent">
+        <h2>Docenten</h2>
+        <div id="docentlogin">
+            <form action="http://localhost/loginpagina_docent_student.php" method="post">
+                <input type="hidden" name="form_id" value="docent">
+
+                <label for="schoolmail">schoolmail</label>
+                <br>
+                <input type="email" id="schoolmail" name="schoolmail">
+                <br>
+                <br>
+                <label for="wachtwoord">wachtwoord</label>
+                <br>
+                <input type="password" id="wachtwoord" name="wachtwoord">
+                <br>
+                <br>
+                <input type="submit" value="Login">              
+            </form>
+        <a href="vergeten.html" target="_blank">schoolmail of wachtwoord vergeten?</a>
+        </div>
+    </div>
+
+    <div  class="Student">
+        <h2>Studenten</h2>
+        <div id="studentlogin">
+            <form action="loginpagina_docent_student.php" method="post">
+                <input type="hidden" name="form_id" value="student">
+
+                <label for="schoolmail">schoolmail</label>
+                <br>
+                <input type="email" id="schoolmail" name="schoolmail">
+                <br>
+                <br>
+                <label for="wachtwoord">wachtwoord</label>
+                <br>
+                <input type="password" id="wachtwoord" name="wachtwoord">
+                <br>
+                <br>
+                <input type="submit" value="Login"> 
+            </form>
+            <a href="vergeten.html">schoolmail of wachtwoord vergeten?</a>
+        </div>
+
+    </div>
+    </div>
+
+    <footer>
+        <a href="hulp.html" target="_blank" class="hulp-nodig">Hulp nodig?</a>
+    </footer>
+
+</body>
+</html>

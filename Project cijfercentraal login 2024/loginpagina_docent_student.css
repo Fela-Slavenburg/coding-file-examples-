@@ -1,0 +1,101 @@
+/**/
+body {
+    background-color: #f0f8ff;
+    font-family: "Aptos", sans-serif;
+}
+
+.head {
+    margin-top: -10px;
+    position: relative;
+    text-align: center;
+}
+
+.midden {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo {
+    top: 20%;
+    height: 150px;
+    width: 150px;
+}
+
+hr {
+margin-top: -20px;
+border-color:rgb(155, 214, 155);
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Aptos", sans-serif;
+    margin-top: auto;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 400px;
+}
+
+/**/
+#docentlogin {
+    display: block;
+    border: solid rgb(126, 186, 126) 2px;
+    background-color: #dbf9db;
+    width: 170%;
+    height: 350px;
+    margin-top: 10%;
+}
+
+#studentlogin {
+    display: block;
+    border: solid rgb(126, 186, 126) 2px;
+    background-color: rgb(219, 249, 219);
+    width: 170%;
+    height: 350px;
+    margin-top: 10%;
+
+}
+
+#docentlogin, #studentlogin {
+    position: relative; 
+}
+
+#docentlogin a, #studentlogin a {
+    position: absolute;
+    bottom: 20px; 
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#docentlogin form, #studentlogin form {
+    margin-top: 10%;
+}
+/**/
+.Docent, .Student {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Docent h2, .Student h2 {
+    margin: 0;
+}
+
+/**/
+.hulp-nodig {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
