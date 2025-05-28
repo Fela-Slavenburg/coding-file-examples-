@@ -1,0 +1,9 @@
+.startbody {
+    background-image: url("pokes.png");
+    background-size: cover; 
+    background-position: top; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100%;
+}
+
